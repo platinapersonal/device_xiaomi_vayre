@@ -51,7 +51,8 @@ BOARD_HAVE_QCOM_FM := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/Overlay
+    $(DEVICE_PATH)/Overlay \
+    $(LOCAL_PATH)/overlay-afterlife 
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
