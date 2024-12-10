@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, device/xiaomi/vayre/lineage.mk)
+# Inherit some common Afterlife stuff
+$(call inherit-product, device/xiaomi/vayre/afterlife.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)

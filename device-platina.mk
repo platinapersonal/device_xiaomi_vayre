@@ -16,6 +16,10 @@ include device/xiaomi/vayre/vayre.mk
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
+# Include our private certificate
+-include vendor/unsa-priv/keys/keys.mk
+-include vendor/unsa-priv/extras/unsa.mk
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
