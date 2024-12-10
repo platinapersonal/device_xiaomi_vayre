@@ -11,6 +11,6 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # AfterLify
-AFTERLIFE_MAINTAINER := Cursed
+AFTERLIFE_MAINTAINER := Curse
 TARGET_SUPPORTS_BLUR := true
 AFTERLIFE_VERSION_APPEND_TIME_OF_DAY := true
